@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5040BD82DF679DB008CB29D /* QMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5040BD32DF679DB008CB29D /* QMapFoundationKit.framework */; };
+		F5040BD92DF679DB008CB29D /* QMapVisualPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5040BD62DF679DB008CB29D /* QMapVisualPlugin.framework */; };
+		F5040BDA2DF679DB008CB29D /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5040BD52DF679DB008CB29D /* QMapSDKUtils.framework */; };
+		F5040BDB2DF679DB008CB29D /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5040BD42DF679DB008CB29D /* QMapKit.framework */; };
+		F5040BE12DF67A7F008CB29D /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5040BE02DF67A7F008CB29D /* QMapKit.bundle */; };
+		F5B59CB02DC206BB002B3611 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CAF2DC206BB002B3611 /* SnapKit */; };
+		F5B59CB32DC20723002B3611 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CB22DC20723002B3611 /* RxCocoa */; };
+		F5B59CB52DC20723002B3611 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CB42DC20723002B3611 /* RxSwift */; };
+		F5B59CB82DC20751002B3611 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CB72DC20751002B3611 /* RxDataSources */; };
+		F5B59CBB2DC2077B002B3611 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CBA2DC2077B002B3611 /* Moya */; };
+		F5B59CBE2DC2078E002B3611 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CBD2DC2078E002B3611 /* Lottie */; };
+		F5B59CC12DC207D0002B3611 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F5B59CC02DC207D0002B3611 /* IQKeyboardManagerSwift */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B59C912DC20697002B3611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B59C6F2DC20695002B3611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B59C762DC20695002B3611;
+			remoteInfo = backlog;
+		};
+		F5B59C9B2DC20697002B3611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B59C6F2DC20695002B3611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B59C762DC20695002B3611;
+			remoteInfo = backlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5040BD32DF679DB008CB29D /* QMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapFoundationKit.framework; sourceTree = "<group>"; };
+		F5040BD42DF679DB008CB29D /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
+		F5040BD52DF679DB008CB29D /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
+		F5040BD62DF679DB008CB29D /* QMapVisualPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapVisualPlugin.framework; sourceTree = "<group>"; };
+		F5040BE02DF67A7F008CB29D /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = QMapKit.bundle; path = Libs/QMapKit.framework/QMapKit.bundle; sourceTree = "<group>"; };
+		F5B59C772DC20695002B3611 /* backlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B59C902DC20697002B3611 /* backlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B59C9A2DC20697002B3611 /* backlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F5B59CD62DC208F6002B3611 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F5B59C762DC20695002B3611 /* backlog */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5B59C792DC20695002B3611 /* backlog */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F5B59CD62DC208F6002B3611 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = backlog; sourceTree = "<group>"; };
+		F5B59C932DC20697002B3611 /* backlogTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = backlogTests; sourceTree = "<group>"; };
+		F5B59C9D2DC20697002B3611 /* backlogUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = backlogUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B59C742DC20695002B3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B59CC12DC207D0002B3611 /* IQKeyboardManagerSwift in Frameworks */,
+				F5B59CB52DC20723002B3611 /* RxSwift in Frameworks */,
+				F5B59CB82DC20751002B3611 /* RxDataSources in Frameworks */,
+				F5B59CB32DC20723002B3611 /* RxCocoa in Frameworks */,
+				F5B59CBB2DC2077B002B3611 /* Moya in Frameworks */,
+				F5040BD82DF679DB008CB29D /* QMapFoundationKit.framework in Frameworks */,
+				F5040BD92DF679DB008CB29D /* QMapVisualPlugin.framework in Frameworks */,
+				F5040BDA2DF679DB008CB29D /* QMapSDKUtils.framework in Frameworks */,
+				F5040BDB2DF679DB008CB29D /* QMapKit.framework in Frameworks */,
+				F5B59CB02DC206BB002B3611 /* SnapKit in Frameworks */,
+				F5B59CBE2DC2078E002B3611 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C8D2DC20697002B3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C972DC20697002B3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5040BD72DF679DB008CB29D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				F5040BD32DF679DB008CB29D /* QMapFoundationKit.framework */,
+				F5040BD42DF679DB008CB29D /* QMapKit.framework */,
+				F5040BD52DF679DB008CB29D /* QMapSDKUtils.framework */,
+				F5040BD62DF679DB008CB29D /* QMapVisualPlugin.framework */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		F5B59C6E2DC20695002B3611 = {
+			isa = PBXGroup;
+			children = (
+				F5040BE02DF67A7F008CB29D /* QMapKit.bundle */,
+				F5040BD72DF679DB008CB29D /* Libs */,
+				F5B59C792DC20695002B3611 /* backlog */,
+				F5B59C932DC20697002B3611 /* backlogTests */,
+				F5B59C9D2DC20697002B3611 /* backlogUITests */,
+				F5B59C782DC20695002B3611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B59C782DC20695002B3611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B59C772DC20695002B3611 /* backlog.app */,
+				F5B59C902DC20697002B3611 /* backlogTests.xctest */,
+				F5B59C9A2DC20697002B3611 /* backlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B59C762DC20695002B3611 /* backlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B59CA32DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlog" */;
+			buildPhases = (
+				F5B59C732DC20695002B3611 /* Sources */,
+				F5B59C742DC20695002B3611 /* Frameworks */,
+				F5B59C752DC20695002B3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F5B59C792DC20695002B3611 /* backlog */,
+			);
+			name = backlog;
+			packageProductDependencies = (
+				F5B59CAF2DC206BB002B3611 /* SnapKit */,
+				F5B59CB22DC20723002B3611 /* RxCocoa */,
+				F5B59CB42DC20723002B3611 /* RxSwift */,
+				F5B59CB72DC20751002B3611 /* RxDataSources */,
+				F5B59CBA2DC2077B002B3611 /* Moya */,
+				F5B59CBD2DC2078E002B3611 /* Lottie */,
+				F5B59CC02DC207D0002B3611 /* IQKeyboardManagerSwift */,
+			);
+			productName = backlog;
+			productReference = F5B59C772DC20695002B3611 /* backlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B59C8F2DC20697002B3611 /* backlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B59CA82DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlogTests" */;
+			buildPhases = (
+				F5B59C8C2DC20697002B3611 /* Sources */,
+				F5B59C8D2DC20697002B3611 /* Frameworks */,
+				F5B59C8E2DC20697002B3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B59C922DC20697002B3611 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5B59C932DC20697002B3611 /* backlogTests */,
+			);
+			name = backlogTests;
+			packageProductDependencies = (
+			);
+			productName = backlogTests;
+			productReference = F5B59C902DC20697002B3611 /* backlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B59C992DC20697002B3611 /* backlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B59CAB2DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlogUITests" */;
+			buildPhases = (
+				F5B59C962DC20697002B3611 /* Sources */,
+				F5B59C972DC20697002B3611 /* Frameworks */,
+				F5B59C982DC20697002B3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B59C9C2DC20697002B3611 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5B59C9D2DC20697002B3611 /* backlogUITests */,
+			);
+			name = backlogUITests;
+			packageProductDependencies = (
+			);
+			productName = backlogUITests;
+			productReference = F5B59C9A2DC20697002B3611 /* backlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B59C6F2DC20695002B3611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F5B59C762DC20695002B3611 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F5B59C8F2DC20697002B3611 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5B59C762DC20695002B3611;
+					};
+					F5B59C992DC20697002B3611 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5B59C762DC20695002B3611;
+					};
+				};
+			};
+			buildConfigurationList = F5B59C722DC20695002B3611 /* Build configuration list for PBXProject "backlog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B59C6E2DC20695002B3611;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F5B59CAE2DC206BB002B3611 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F5B59CB12DC20723002B3611 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F5B59CB62DC20751002B3611 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				F5B59CB92DC2077B002B3611 /* XCRemoteSwiftPackageReference "Moya" */,
+				F5B59CBC2DC2078E002B3611 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				F5B59CBF2DC207D0002B3611 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = F5B59C782DC20695002B3611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B59C762DC20695002B3611 /* backlog */,
+				F5B59C8F2DC20697002B3611 /* backlogTests */,
+				F5B59C992DC20697002B3611 /* backlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B59C752DC20695002B3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5040BE12DF67A7F008CB29D /* QMapKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C8E2DC20697002B3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C982DC20697002B3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B59C732DC20695002B3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C8C2DC20697002B3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B59C962DC20697002B3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B59C922DC20697002B3611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B59C762DC20695002B3611 /* backlog */;
+			targetProxy = F5B59C912DC20697002B3611 /* PBXContainerItemProxy */;
+		};
+		F5B59C9C2DC20697002B3611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B59C762DC20695002B3611 /* backlog */;
+			targetProxy = F5B59C9B2DC20697002B3611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5B59CA42DC20697002B3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = backlog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "记一下";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B59CA52DC20697002B3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = backlog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "记一下";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5B59CA62DC20697002B3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5B59CA72DC20697002B3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B59CA92DC20697002B3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backlog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/backlog";
+			};
+			name = Debug;
+		};
+		F5B59CAA2DC20697002B3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backlog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/backlog";
+			};
+			name = Release;
+		};
+		F5B59CAC2DC20697002B3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = backlog;
+			};
+			name = Debug;
+		};
+		F5B59CAD2DC20697002B3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WYUSR3RW56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.backlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = backlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B59C722DC20695002B3611 /* Build configuration list for PBXProject "backlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B59CA62DC20697002B3611 /* Debug */,
+				F5B59CA72DC20697002B3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B59CA32DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B59CA42DC20697002B3611 /* Debug */,
+				F5B59CA52DC20697002B3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B59CA82DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B59CA92DC20697002B3611 /* Debug */,
+				F5B59CAA2DC20697002B3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B59CAB2DC20697002B3611 /* Build configuration list for PBXNativeTarget "backlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B59CAC2DC20697002B3611 /* Debug */,
+				F5B59CAD2DC20697002B3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5B59CAE2DC206BB002B3611 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		F5B59CB12DC20723002B3611 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		F5B59CB62DC20751002B3611 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		F5B59CB92DC2077B002B3611 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		F5B59CBC2DC2078E002B3611 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+		F5B59CBF2DC207D0002B3611 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5B59CAF2DC206BB002B3611 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CAE2DC206BB002B3611 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F5B59CB22DC20723002B3611 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CB12DC20723002B3611 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F5B59CB42DC20723002B3611 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CB12DC20723002B3611 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F5B59CB72DC20751002B3611 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CB62DC20751002B3611 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		F5B59CBA2DC2077B002B3611 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CB92DC2077B002B3611 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		F5B59CBD2DC2078E002B3611 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CBC2DC2078E002B3611 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		F5B59CC02DC207D0002B3611 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B59CBF2DC207D0002B3611 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5B59C6F2DC20695002B3611 /* Project object */;
+}
